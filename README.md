@@ -7,7 +7,9 @@ Any feedback would be greatly appreciated.
 I've included a little UI to help you test.  It's not much, but it may be useful.
  
 I was wondering if a tolerance value should have been added, or the ability highlight certain months that were "blips" without labeling the the account as variable - as long as the account proceeded on track. In the end I stuck to the task description.
- 
+
+
+## Instructions 
  
 1) Clone the repo
 `git clone https://github.com/ajneil/koodoo-techtest.git`
