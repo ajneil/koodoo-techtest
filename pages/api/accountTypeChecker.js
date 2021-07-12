@@ -1,3 +1,5 @@
+import get from 'lodash.get';
+
 const FIXED_ACC_TYPE = 'B';
 const VAR_ACC_TYPE = 'A';
 
@@ -11,8 +13,8 @@ const accountTypeChecker = (accountBalanceHistory) => {
       return 0;
     }
 
-    const { account: { balance: { amount: thisBalance } } } = balance;
-    const { account: { balance: { amount: prevBalance } } } = accountBalanceHistory[index - 1];
+    const thisBalance = get(balance, 'account.balance.amount');
+    const prevBalance = get(accountBalanceHistory[index - 1], 'account.balance.amount');
     const diff = thisBalance - prevBalance;
 
     return diff;
