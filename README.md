@@ -23,4 +23,4 @@ I've included a little UI to help you test.  It's not much, but it may be useful
 `npm start`
 
 6) Use the UI
-Visit [localhost:300](http://localhost:300)
+Visit [localhost:300](http://localhost:3000)
